@@ -1,0 +1,20 @@
+List Function
+
+fruit=['apple','banana']
+#append
+fruit.append('orange')
+#extend
+fruit.extend(['cherry','blueberry','blueberry'])
+#pop
+fruit.pop(1)
+#insert
+fruit.insert(1,'mango')
+#remove
+fruit.remove('cherry')
+#count
+print(fruit.count('blueberry'))
+#sort
+fruit.reverse()
+#index
+print(fruit.index('apple'))
+print(fruit)
